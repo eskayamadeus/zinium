@@ -3,6 +3,11 @@ $enable-responsive-font-sizes: true;
 
 $body-bg: #fafafa;
 
+@import url('https://fonts.googleapis.com/css?family=Radley|Lato');
+
+$font-family-base: 'Lato', sans-serif;
+$headings-font-family: 'Radley', serif;
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // add any other non-overwriting css/sass code here
