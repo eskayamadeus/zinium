@@ -3,9 +3,9 @@ $enable-responsive-font-sizes: true;
 
 $body-bg: #fafafa;
 
-@import url('https://fonts.googleapis.com/css?family=Radley|Lato');
+@import url('https://fonts.googleapis.com/css?family=Radley|Work+Sans');
 
-$font-family-base: 'Lato', sans-serif;
+$font-family-base: 'Work Sans', sans-serif;
 $headings-font-family: 'Radley', serif;
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
@@ -28,26 +28,26 @@ $headings-font-family: 'Radley', serif;
     // Extra small devices (portrait phones, less than 576px)
     // No media query for `xs` since this is the default in Bootstrap
     // height: 5%;
-    width: 30%;
+    width: 10%;
 
     // Small devices (landscape phones, 576px and up)
     @media (min-width: 576px) {
-        width: 80%;
+        width: 10%;
     }
 
     // Medium devices (tablets, 768px and up)
     @media (min-width: 768px) {
-        width: 60%;
+        width: 10%;
      }
 
     // Large devices (desktops, 992px and up)
     @media (min-width: 992px) { 
-        width: 45%;
+        width: 7%;
      }
 
     // Extra large devices (large desktops, 1200px and up)
     @media (min-width: 1200px) {
-        width: 40%;
+        width: 5%;
     }
 }
 

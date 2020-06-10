@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Radley|Lato");
+@import url("https://fonts.googleapis.com/css?family=Radley|Work+Sans");
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -56,7 +56,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Lato", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -6617,7 +6617,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Lato", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -6730,7 +6730,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Lato", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -10898,30 +10898,30 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .social-icon-responsive {
-  width: 30%;
+  width: 10%;
 }
 
 @media (min-width: 576px) {
   .social-icon-responsive {
-    width: 80%;
+    width: 10%;
   }
 }
 
 @media (min-width: 768px) {
   .social-icon-responsive {
-    width: 60%;
+    width: 10%;
   }
 }
 
 @media (min-width: 992px) {
   .social-icon-responsive {
-    width: 45%;
+    width: 7%;
   }
 }
 
 @media (min-width: 1200px) {
   .social-icon-responsive {
-    width: 40%;
+    width: 5%;
   }
 }
 
