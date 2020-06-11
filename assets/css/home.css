@@ -1,6 +1,6 @@
 /* In this project, Index and Dashboard pages are collectively referred to as home*/
 .intro {
-  background-image: url("../img/banner.jpg");
+  background-image: url("../img/seth-ebenezer-tetteh-aBOubHfVvCA-unsplash.jpg");
   background-repeat: no-repeat;
   /* hor | vert */
   background-size: 100% 100vh;
@@ -38,7 +38,6 @@
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fafafa;
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -52,8 +51,84 @@
   width: auto;
 }
 
-.department-card {
-  width: 14rem;
-  margin-right: 20px;
+#founders-address {
+  background-color: #f7fbf4;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23e2c235' fill-opacity='0.16' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#call-to-action {
+  background-image: url("assets/img/cta-section-bg.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 150vw;
+}
+
+.footer-main {
+  background-color: #011936;
+  color: #6B818C;
+  text-align: center;
+}
+
+.footer-main a {
+  color: #6B818C;
+}
+
+.footer-main a:hover {
+  color: darkgoldenrod;
+  text-decoration: underline !important;
+  -webkit-text-decoration-style: solid;
+          text-decoration-style: solid;
+}
+
+.footer-main h3 {
+  color: #83957d;
+}
+
+.footer-copyright {
+  background-color: #1b2531;
+}
+
+/* trying out the video */
+.video-background-holder {
+  position: relative;
+  background-color: black;
+  height: calc(100vh - 72px);
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video-background-holder video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.video-background-content {
+  position: relative;
+  z-index: 2;
+}
+
+.video-background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
 }
 /*# sourceMappingURL=home.css.map */

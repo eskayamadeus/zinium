@@ -14,9 +14,9 @@
     <link rel="stylesheet" href="node_modules\@fortawesome\fontawesome-free\css\all.css">  
     <!-- Index+Dashboard CSS -->
     <link rel="stylesheet" href="assets/css/home.css">
-    
 
     <title>Index</title>
+
   </head>
   <body>
     <!--fullscreen menu-->
@@ -64,29 +64,142 @@
     <!--/navbar-->
 
     <!--above the fold-->
-    <div class="intro d-flex flex-row align-items-center mb-4">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12 text-center">
-            <h1 class="display-2">Welcome</h1>
-            <h2 class="mb-4">You are logged in</h2>
-            <button type="button" class="btn btn-primary">Explore</button>
+      <!-- 1. This does not show on mobile -->
+      <!-- Background video container -->
+      <div class="video-background-holder d-none d-sm-block">
+        <div class="video-background-overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="assets/vid/output2.mp4" type="video/mp4">
+        </video>
+        <div class="video-background-content container h-100">
+          <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100 text-white">
+              <h1 class="display-2">Welcome, Thompson.</h1>
+              <h4 class="mb-4"><em>Your adventure starts here.</em></h4>
+              <button type="button" class="btn btn-outline-primary">Explore</button>
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+      <!--/ Background Video container -->
+      <!-- 2. This will show on mobile instead -->
+      <div class="intro d-flex flex-row align-items-center mb-4 d-sm-none">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 text-center text-white">
+              <h1 class="display-2">Welcome, Thompson.</u></h1>
+              <h3 class="mb-4"><em>Your adventure starts here.</em></h3>
+              <button type="button" class="btn btn-primary">Join us</button>
+              <button type="button" class="btn btn-secondary">Login</button>
+            </div>
+          </div>
+        </div>
+      </div>
     <!--/above the fold-->
+
+    
   
     <!--below the fold-->
-    <div class="container">
-      <section>
+    <section id="popular-courses" class="bg-white py-4">
+      <div class="container py-4">
         <h4>Our Popular Courses</h4>
-      </section>
-      
-      <hr/>
-      
-      <!-- Departments -->
-      <section>
+        <!-- Swiper main container -->
+        <div class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="https://via.placeholder.com/286x180?text=Sample+Damzinium+course" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="https://via.placeholder.com/286x180?text=Sample+Damzinium+course" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="https://via.placeholder.com/286x180?text=Sample+Damzinium+course" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="https://via.placeholder.com/286x180?text=Sample+Damzinium+course" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="https://via.placeholder.com/286x180?text=Sample+Damzinium+course" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="https://via.placeholder.com/286x180?text=Sample+Damzinium+course" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="https://via.placeholder.com/286x180?text=Sample+Damzinium+course" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="https://via.placeholder.com/286x180?text=Sample+Damzinium+course" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div> 
+          </div>
+          <!-- If we need pagination -->
+          <!-- <div class="swiper-pagination"></div>  -->
+        </div>
+        <!-- /Swiper main container -->
+      </div>
+    </section>
+    
+    <!-- Departments -->
+    <section id="departments" class="py-4">
+      <div class="container py-4">
         <h4>All Departments</h4>
         <!-- List of departments -->
         <div>
@@ -116,7 +229,7 @@
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide">
-                  <div class="card department-card">
+                  <div class="card">
                     <img src="https://via.placeholder.com/286x180?text=Sample+Damzinium+course" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -126,7 +239,7 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <div class="card department-card">
+                  <div class="card">
                     <img src="https://via.placeholder.com/286x180?text=Sample+Damzinium+course" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -136,7 +249,7 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <div class="card department-card">
+                  <div class="card">
                     <img src="https://via.placeholder.com/286x180?text=Sample+Damzinium+course" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -146,7 +259,7 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <div class="card department-card">
+                  <div class="card">
                     <img src="https://via.placeholder.com/286x180?text=Sample+Damzinium+course" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -156,7 +269,7 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <div class="card department-card">
+                  <div class="card">
                     <img src="https://via.placeholder.com/286x180?text=Sample+Damzinium+course" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -166,7 +279,7 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <div class="card department-card">
+                  <div class="card">
                     <img src="https://via.placeholder.com/286x180?text=Sample+Damzinium+course" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -176,7 +289,7 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <div class="card department-card">
+                  <div class="card">
                     <img src="https://via.placeholder.com/286x180?text=Sample+Damzinium+course" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -186,7 +299,7 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <div class="card department-card">
+                  <div class="card">
                     <img src="https://via.placeholder.com/286x180?text=Sample+Damzinium+course" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -202,128 +315,94 @@
           <!-- /Swiper main container -->
         </div>
         <!-- /Collapsed -->
-      </section>
-      <!--/ Departments -->
+      </div>
+    </section>
+    <!--/ Departments -->
 
-      <hr/>
+    <!-- Footer -->
+    <footer>
+      <!-- Social -->
+      <div class="footer-top">
+        <div style="background-color: #b7d3ad;">
+          <div class="container">
+            <!--Grid row-->
+            <div class="row py-4 d-flex align-items-center">
 
-      <!-- Founder's address -->
-      <section>
-        <h4>About Damzinium</h4>
-        <div class="quote text-center mb-3"><i class="fa fa-quote-left fa-3x"></i></div>
-        <blockquote class="blockquote text-center">
-          <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-        </blockquote>
-        <div class="text-center mb-2">
-          <img class="profile-circle" src="https://via.placeholder.com/100"/>
-        </div>
-        <p class="text-center">Founder Name</p>
-      </section>
-      <!--/ Founder's address -->
+              <!--Grid column-->
+              <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                  <h6 class="mb-0 white-text">Get connected with us on social networks!</h6>
+              </div>
+              <!--Grid column-->
 
-      <hr/>
+              <!--Grid column-->
+              <div class="col-md-6 col-lg-7 text-center text-md-right">
+                <!--WhatsApp-->
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=233000000000&text=Hello%Damzinium" class="btn-sm text-decoration-none">
+                  <img class="img-fluid social-icon-responsive" src="https://img.icons8.com/color/48/000000/whatsapp.png"/>
+                </a>
+                <!-- Facebook -->
+                <a target="_blank" href="https://www.facebook.com/" class="btn-sm text-decoration-none">
+                  <img class="img-fluid social-icon-responsive" src="https://img.icons8.com/color/48/000000/facebook-circled.png"/>
+                </a>
+                <!-- Instagram-->
+                <a target="_blank" href="https://www.instagram.com/" class="btn-sm text-decoration-none">
+                  <img class="img-fluid social-icon-responsive" src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/>
+                </a>
+                <!-- Youtube -->
+                <a target="_blank" href="https://www.youtube.com/channel/" class="btn-sm text-decoration-none">
+                  <img class="img-fluid social-icon-responsive" src="https://img.icons8.com/fluent/48/000000/youtube-play.png"/>
+                </a>
+                <!--LinkedIn-->
+                <a target="_blank" href="https://www.linkedin.com/" class="btn-sm text-decoration-none">
+                  <img class="img-fluid social-icon-responsive" src="https://img.icons8.com/color/48/000000/linkedin-circled.png"/>
+                </a>
+                <!--Twitter-->
+                <a target="_blank" href="https://www.youtube.com/channel/" class="btn-sm text-decoration-none">
+                  <img class="img-fluid social-icon-responsive" src="https://img.icons8.com/color/48/000000/twitter-circled.png"/>
+                </a>
+              </div>
+              <!--Grid column-->
 
-      <!-- Site Features -->
-      <section>
-        <h4>Site Features</h4>
-        <div class="container">
-          <div class="row text-center row-cols-1 row-cols-sm-2 row-cols-md-3">
-            <!-- Feature 1 -->
-            <div class="col">
-              <div class="card border-0" style="background-color: transparent;">
-                <div class="card-body">
-                  <i class="fa fa-quote-left fa-3x mb-2"></i>
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
             </div>
-            <!-- /Feature 1 -->
-            <!-- Feature 2 -->
-            <div class="col">
-              <div class="card border-0" style="background-color: transparent;">
-                <div class="card-body">
-                  <i class="fa fa-quote-left fa-3x mb-2"></i>
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-            <!-- /Feature 2 -->
-            <!-- Feature 3 -->
-            <div class="col">
-              <div class="card border-0" style="background-color: transparent;">
-                <div class="card-body">
-                  <i class="fa fa-quote-left fa-3x mb-2"></i>
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-            <!-- /Feature 3 -->
-            <!-- Feature 4 -->
-            <div class="col">
-              <div class="card border-0" style="background-color: transparent;">
-                <div class="card-body">
-                  <i class="fa fa-quote-left fa-3x mb-2"></i>
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-            <!-- /Feature 4 -->
-            <!-- Feature 5 -->
-            <div class="col">
-              <div class="card border-0" style="background-color: transparent;">
-                <div class="card-body">
-                  <i class="fa fa-quote-left fa-3x mb-2"></i>
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-            <!-- /Feature 5 -->
-            <!-- Feature 6 -->
-            <div class="col">
-              <div class="card border-0" style="background-color: transparent;">
-                <div class="card-body">
-                  <i class="fa fa-quote-left fa-3x mb-2"></i>
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-            <!-- /Feature 6 -->
+            <!--Grid row-->
           </div>
         </div>
-      </section>
-      <!--/ Site Features -->
-
-      <hr/>
-
-      <!-- Testimonials -->
-      <section>
-        <h4>Testimonials</h4>
-      </section>
-      <!-- /Testimonials -->
-
-      <hr/>
-
-      <!-- Social -->
-      <section>
-        <h4>Connect with us...</h4>
-        <div class="row row-cols-1 row-cols-sm-6 text-center">
-          <!-- https://icons8.com/icons/set/linkedin -->
-          <div class="col"><img class="img-fluid social-icon-responsive" src="https://img.icons8.com/color/480/000000/linkedin-circled.png"/></div>
-          <div class="col"><img class="img-fluid social-icon-responsive" src="https://img.icons8.com/color/480/000000/facebook-circled.png"/></div>
-          <div class="col"><img class="img-fluid social-icon-responsive" src="https://img.icons8.com/color/480/000000/twitter-circled.png"/></div>
-          <div class="col"><img class="img-fluid social-icon-responsive" src="https://img.icons8.com/fluent/480/000000/instagram-new.png"/></div>
-          <div class="col"><img class="img-fluid social-icon-responsive" src="https://img.icons8.com/fluent/480/000000/youtube-play.png"/></div>
-          <div class="col"><img class="img-fluid social-icon-responsive" src="https://img.icons8.com/fluent/480/000000/google-plus.png"/></div>
+      </div>
+      <!--/ Social -->
+      <div class="footer-main py-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-lg-4">
+              <img class="logo-footer img-fluid mb-2" src="assets\img\logo-large.png"  style="max-width: 30%;" alt="logo-footer">
+              <p>
+                Substitute this text with a little something about Damzinium. Something real catchy. Get them all.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <h3>Links</h3>
+              <p><a href="#" class="text-decoration-none">Home</a></p>
+              <p><a href="#" class="text-decoration-none">About</a></p>
+              <p><a href="#" class="text-decoration-none">Departments</a></p>
+              <p><a href="#" class="text-decoration-none">Contact</a></p>
+            </div>
+            <div class="col-md-4">
+              <h3>Contact</h3>
+              <p><i class="fas fa-map-marker-alt"></i> Some Place, Ghana.</p>
+              <p><i class="fas fa-phone"></i> (233) 54 000 0000</p>
+              <p><i class="fas fa-envelope"></i> <a href="mailto:hello@domain.com">hello@domain.com</a></p>
+            </div>
+          </div>
         </div>
-      </section>
-      <!-- /Social -->
-    </div>
+      </div>
+      <!-- Copyright-->
+      <div class="footer-copyright">
+        <div class="container-fluid text-white-50" style="text-align: center; line-height: 40px;">
+          © 2016-2020. <a href="#" class="text-light text-decoration-none"><strong>Damzinium Inc.</strong></a>
+          </div>
+      </div>
+      <!--/.Copyright -->
+    </footer>
+    <!-- Footer -->
     <!--/below the fold-->
 
         
@@ -335,13 +414,31 @@
     <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
     <script>
       var mySwiper = new Swiper ('.swiper-container', {
-        slidesPerView: 4.5,
-        spaceBetween: 20,
+        slidesPerView: 1.5,
+        spaceBetween: 10,
         // If we need pagination
         pagination: {
           el: '.swiper-pagination',
           clickable: true,
         },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3.5,
+            spaceBetween: 10,
+          },
+          1024: {
+            slidesPerView: 4.5,
+            spaceBetween: 10,
+          },
+        },
+        // without these, Swiper doesn't work inside collapsible
+        observer: true, 
+        observeParents: true,
+        observeSlideChildren: true,
       })
     </script>
     <script>
