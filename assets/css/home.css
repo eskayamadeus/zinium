@@ -1,19 +1,12 @@
 /* In this project, Index and Dashboard pages are collectively referred to as home*/
 .intro {
-  background-image: url("../img/seth-ebenezer-tetteh-aBOubHfVvCA-unsplash.jpg");
+  background-image: url("../img/girl-drone.jpg");
   background-repeat: no-repeat;
   /* hor | vert */
   background-size: 100% 100vh;
   min-height: 100vh;
 }
 
-/* .intro:hover {
-    filter: gray; 
-    -webkit-filter: grayscale(1);
-    -moz-filter: grayscale(1);
-    -ms-filter: grayscale(1);
-    -webkit-transition: all .8s ease-in-out;
-  } */
 .intro:hover > :not(.intro) {
   -webkit-filter: none;
           filter: none;
@@ -32,9 +25,6 @@
   height: 100%;
 }
 
-/* .swiper-container:not(.show) {
-    display:none;
-  } */
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -130,5 +120,48 @@ body {
   background-color: black;
   opacity: 0.5;
   z-index: 1;
+}
+
+.scroll-button-container {
+  position: absolute;
+  /* could have set left to 50, but it goes too far off */
+  left: 48.5%;
+  bottom: 7%;
+}
+
+.scroll-button {
+  -webkit-animation: fade_move_down 2s ease-in-out infinite;
+  animation: fade_move_down 2s ease-in-out infinite;
+}
+
+/*animated scroll arrow animation*/
+@-webkit-keyframes fade_move_down {
+  0% {
+    -webkit-transform: translate(0, -20px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translate(0, 20px);
+    opacity: 0;
+  }
+}
+
+@keyframes fade_move_down {
+  0% {
+    -webkit-transform: translate(0, -20px);
+            transform: translate(0, -20px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translate(0, 20px);
+            transform: translate(0, 20px);
+    opacity: 0;
+  }
 }
 /*# sourceMappingURL=home.css.map */

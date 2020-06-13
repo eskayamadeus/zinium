@@ -1,144 +1,150 @@
 /* In this project, Index and Dashboard pages are collectively referred to as home*/
 
 .intro {
-    background-image: url('../img/seth-ebenezer-tetteh-aBOubHfVvCA-unsplash.jpg');
-    background-repeat: no-repeat;
-    /* hor | vert */
-    background-size: 100% 100vh;
-    min-height: 100vh;
-  }
+  background-image: url('../img/girl-drone.jpg');
+  background-repeat: no-repeat;
+  /* hor | vert */
+  background-size: 100% 100vh;
+  min-height: 100vh;
+}
+.intro:hover > :not(.intro) {
+  filter: none;
+}
+.quote {
+  color: rgba(0,0,0,.1);
+}
+.profile-circle {
+  border-radius: 100px;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
 
-  /* .intro:hover {
-    filter: gray; 
-    -webkit-filter: grayscale(1);
-    -moz-filter: grayscale(1);
-    -ms-filter: grayscale(1);
-    -webkit-transition: all .8s ease-in-out;
-  } */
-
-  .intro:hover > :not(.intro) {
-    filter: none;
-  }
-  .quote {
-    color: rgba(0,0,0,.1);
-  }
-  .profile-circle {
-    border-radius: 100px;
-  }
-  .swiper-container {
-    width: 100%;
-    height: 100%;
-  }
-
-  /* .swiper-container:not(.show) {
-    display:none;
-  } */
-
-  // .popular-courses-swiper-wrapper > div {
-  //   background-color: #fff !important;
-  // }
-  // .department-swiper-wrapper > div {
-  //   background-color: #fafafa !important;
-  // }
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-
-    width: auto;
-  }
-  // .department-card {
-  //   width: 14rem;
-  //   margin-right: 20px;
-  // }
-
-  #founders-address {
-    background-color: #f7fbf4;
-    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23e2c235' fill-opacity='0.16' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
-  }
-
-  body{
-    overflow-x: hidden;
-  }
-
-  #call-to-action {
-    background-image: url('../img/cta-section-bg.jpg');
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size:150vw;
-  }
-
-  .footer-main {
-    background-color: #011936;
-    color: #6B818C;
-    text-align: center;
-  }
-  .footer-main a {
-    color: #6B818C;
-  }
-  .footer-main a:hover {
-    color: darkgoldenrod;
-    text-decoration: underline !important;
-    text-decoration-style: solid;
-  }
-  .footer-main h3{
-    color: #83957d;
-  }
-  .footer-copyright {
-    background-color: #1b2531;
-  }
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
   
-  /* trying out the video */
-  .video-background-holder {
-    position: relative;
-    background-color: black;
-    height: calc(100vh - 72px);
-    min-height: 100vh;
-    width: 100%;
-    overflow: hidden;
-  }
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 
-  .video-background-holder video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: 0;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-  }
+  width: auto;
+}
+#founders-address {
+  background-color: #f7fbf4;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23e2c235' fill-opacity='0.16' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
 
-  .video-background-content {
-    position: relative;
-    z-index: 2;
-  }
+body{
+  overflow-x: hidden;
+}
 
-  .video-background-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    opacity: 0.5;
-    z-index: 1;
-  }
+#call-to-action {
+  background-image: url('../img/cta-section-bg.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size:150vw;
+}
+
+.footer-main {
+  background-color: #011936;
+  color: #6B818C;
+  text-align: center;
+}
+.footer-main a {
+  color: #6B818C;
+}
+.footer-main a:hover {
+  color: darkgoldenrod;
+  text-decoration: underline !important;
+  text-decoration-style: solid;
+}
+.footer-main h3{
+  color: #83957d;
+}
+.footer-copyright {
+  background-color: #1b2531;
+}
+
+/* trying out the video */
+.video-background-holder {
+  position: relative;
+  background-color: black;
+  height: calc(100vh - 72px);
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video-background-holder video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.video-background-content {
+  position: relative;
+  z-index: 2;
+}
+
+.video-background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.scroll-button-container {
+  position: absolute;
+  /* could have set left to 50, but it goes too far off */
+  left: 48.5%;
+  bottom: 7%;
+}
+
+.scroll-button {
+  -webkit-animation: fade_move_down 2s ease-in-out infinite;
+  -moz-animation:    fade_move_down 2s ease-in-out infinite;
+  animation:         fade_move_down 2s ease-in-out infinite;
+}
+  
+/*animated scroll arrow animation*/
+@-webkit-keyframes fade_move_down {
+  0%   { -webkit-transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,20px); opacity: 0; }
+}
+@-moz-keyframes fade_move_down {
+  0%   { -moz-transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0,20px); opacity: 0; }
+}
+@keyframes fade_move_down {
+  0%   { transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,20px); opacity: 0; }
+}
